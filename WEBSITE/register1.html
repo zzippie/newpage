@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+     <head>
+     	<title>Registreer</title>
+<style>
+body {
+  background-color:lightblue;
+}
+
+h1 {
+  color: red;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 40px;
+}
+</style>
+
+<body>
+    <form method="GET" action="action.php">
+        First Name:<input type="text" name="lastname"required><br>
+        Last Name :<input type="text" name="lastname"required><br>
+        Email:     <input type="email"type="email"required><br>
+        Birth     :<input type="date" name="birth"required><br>
+       Geboorteland:<input type="text"required><br>
+        Geslacht  :<br>
+        <input type="radio" name="gender" value="male">male<br> 
+        <input type="radio" name="gender" value="female">vrouw<br>
+        Pets:<br>
+        <input type="checkbox">Kat<br>
+        <input type="checkbox">Hond<br>
+        <br>
+        Vervoer:<br>
+    <select name="Vervoer">
+        <option value="auto">auto</option>
+        <option value="fiets">fiets</option>
+        <option value="Anders">Anders</option>
+    </select></br>
+
+    <div class="form-group">
+  <label for="comment">Comment:</label>
+  <textarea class="form-control" rows="5" id="comment"></textarea>
+</div>
+
+<div class="form-check">
+  <label class="form-check-label">
+    <input type="checkbox" class="form-check-input" value="">Option 1
+  </label>
+</div>
+<div class="form-check">
+  <label class="form-check-label">
+    <input type="checkbox" class="form-check-input" value="">Option 2
+  </label>
+</div>
+<div class="form-check">
+  <label class="form-check-label">
+    <input type="checkbox" class="form-check-input" value="" disabled>Option 3
+  </label>
+</div>
+
+
+        <input type="submit" value="register!">
+        <input type="reset">
+        </head>
+    </form></body>
+</body>
+</html>

@@ -1,0 +1,34 @@
+/*Selector {
+    Proporty: value;
+}*/
+
+body {
+	background-image: url(1234.jpg);
+	background-size: cover;
+}
+
+h2, p {
+	.color-primary-0 { color: #AE3939 }	/* Main Primary color */
+.color-primary-1 { color: #FF6969 }
+.color-primary-2 { color: #E24E4E }
+.color-primary-3 { color: #771818 }
+.color-primary-4 { color: #480909 }
+	color:black;
+	text-align: center;
+	border: 5px solid #FF6969;
+	cursor:pointer;
+}
+
+
+p {
+	color:#FF6969;
+}
+
+p {
+	color:#771818;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+}
